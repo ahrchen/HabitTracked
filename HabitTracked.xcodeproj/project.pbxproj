@@ -11,6 +11,10 @@
 		EED83EF02710ED2100A4AD08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED83EEF2710ED2100A4AD08 /* ContentView.swift */; };
 		EED83EF22710ED2300A4AD08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED83EF12710ED2300A4AD08 /* Assets.xcassets */; };
 		EED83EF52710ED2300A4AD08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED83EF42710ED2300A4AD08 /* Preview Assets.xcassets */; };
+		EED83EFD2710F32600A4AD08 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED83EFC2710F32600A4AD08 /* Activity.swift */; };
+		EED83EFF27110B1F00A4AD08 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED83EFE27110B1F00A4AD08 /* AddView.swift */; };
+		EED83F012711183000A4AD08 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED83F002711183000A4AD08 /* ActivityView.swift */; };
+		EED83F032711397800A4AD08 /* TextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED83F022711397800A4AD08 /* TextFieldManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		EED83EF12710ED2300A4AD08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED83EF42710ED2300A4AD08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EED83EF62710ED2300A4AD08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED83EFC2710F32600A4AD08 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		EED83EFE27110B1F00A4AD08 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		EED83F002711183000A4AD08 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		EED83F022711397800A4AD08 /* TextFieldManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,12 @@
 		EED83EEC2710ED2100A4AD08 /* HabitTracked */ = {
 			isa = PBXGroup;
 			children = (
+				EED83EFC2710F32600A4AD08 /* Activity.swift */,
 				EED83EED2710ED2100A4AD08 /* HabitTrackedApp.swift */,
 				EED83EEF2710ED2100A4AD08 /* ContentView.swift */,
+				EED83EFE27110B1F00A4AD08 /* AddView.swift */,
+				EED83F022711397800A4AD08 /* TextFieldManager.swift */,
+				EED83F002711183000A4AD08 /* ActivityView.swift */,
 				EED83EF12710ED2300A4AD08 /* Assets.xcassets */,
 				EED83EF62710ED2300A4AD08 /* Info.plist */,
 				EED83EF32710ED2300A4AD08 /* Preview Content */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED83EFF27110B1F00A4AD08 /* AddView.swift in Sources */,
+				EED83EFD2710F32600A4AD08 /* Activity.swift in Sources */,
 				EED83EF02710ED2100A4AD08 /* ContentView.swift in Sources */,
+				EED83F012711183000A4AD08 /* ActivityView.swift in Sources */,
 				EED83EEE2710ED2100A4AD08 /* HabitTrackedApp.swift in Sources */,
+				EED83F032711397800A4AD08 /* TextFieldManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
